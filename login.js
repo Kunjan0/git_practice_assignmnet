@@ -6,12 +6,14 @@ let num= 15;
 
 for(i=0; i<=num; i++){
   
-   if(num%1==0){
+   if(num%2==0){
   
-  count++;
+  count++;}
 
   if(count==2){
-console.log("Prime Number");
+console.log("Prime Number");}
+else{
+console.log("Not prime");}}
 
 
 
@@ -20,7 +22,10 @@ console.log("Prime Number");
 let str= "Himanshu";
 let bag= "";
 
-for(i=str-1; i>=0; i--){
+for( let i=str-1; i>=0; i--){
 
-  bag= bag + str[i];
-console.log(bag);
+  bag= bag + str[i];}
+if(str==bag){
+console.log("Yes");}
+else{
+console.log("No");}}
